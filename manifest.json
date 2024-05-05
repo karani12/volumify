@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "YouTube Volume Booster",
+    "description": "Boosts video volume up to 300%",
+    "version": "1.0",
+    "permissions": ["tabs", "activeTab", "scripting"],
+    "host_permissions": [
+        "<all_urls>"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html"
+    }
+  }
+  
